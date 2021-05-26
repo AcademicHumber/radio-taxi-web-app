@@ -1,15 +1,1 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-    Soy el Mapa
-</body>
-
-</html>
+<img src="https://lh3.googleusercontent.com/proxy/5WMtcocyKf6MnVJud1nKvQgkuWGqxa9vtjQl8LszlqFeJwA8KdzKgNtBfoBa7jsLbcCX4VC_6vdAToDlddX0cc0zYb6quf8UFhc" alt="mapa">
