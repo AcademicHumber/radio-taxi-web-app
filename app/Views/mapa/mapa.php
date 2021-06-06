@@ -1,1 +1,0 @@
-<img src="https://lh3.googleusercontent.com/proxy/5WMtcocyKf6MnVJud1nKvQgkuWGqxa9vtjQl8LszlqFeJwA8KdzKgNtBfoBa7jsLbcCX4VC_6vdAToDlddX0cc0zYb6quf8UFhc" alt="mapa">
