@@ -12,6 +12,7 @@ echo view('comun/header');
 <?php
 echo view('mapa/mapa');
 ?>
+<br>
 <h4 class="text-center">Solicitudes de Viajes</h4>
 <div class="row">
     <div class="col-sm-12">
@@ -40,10 +41,9 @@ echo view('mapa/mapa');
         <button type="button" class="btn btn-outline-dark">Cancelar</button>
     </div>
 </div>
-
-
+<br>
 </div>
-
+<br>
 <br>
 <?php
 echo view('comun/footer');
