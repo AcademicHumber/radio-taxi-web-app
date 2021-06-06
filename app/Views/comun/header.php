@@ -18,6 +18,7 @@
             </g>
         </svg>
         </div>
+        </div>
     </nav>
 </head>
 
