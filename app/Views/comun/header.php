@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <title>App Radio Taxi</title>
-    <nav class="navbar navbar-expand-md navbar-light" style="background-color: #393E46;">
+    <nav class="navbar navbar-expand-md navbar-light bg-dark">
         <div class = "container-fluid" style = "height : 45px">
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="21" viewBox="0 0 30 21">
             <g id="Icon_feather-menu" data-name="Icon feather-menu" transform="translate(-3 -7.5)">
@@ -20,6 +20,4 @@
         </div>
     </nav>
 </head>
-
-<body>
-</body>
+<body style="background-color: #EEEEEE;">
