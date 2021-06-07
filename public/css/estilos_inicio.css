@@ -2,12 +2,9 @@
 
 /* Página de Inicio */
 
-body{
-    
-    font-family: 'Gotham';
-}
+
 #img_btn1{
-    margin-top: 100px !important;
+    margin-top: 30px !important;
     width: 250px;
 }
 #img_logo{

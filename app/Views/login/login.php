@@ -1,54 +1,59 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="<?php echo base_url("css/estilos_inicio.css")?>">
-    <title>Iniciar Sesión</title>
-  </head>
-  <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    
-    <?php
-    echo view('comun/header');
-    ?>
-    
-    <div class="container-fluid">
-      <div id="img_logo" class="row">
-          <div class="col-sm-12">
-            <img src="img/icono.png" heigh=100 width=100 class="mx-auto d-block rounded">
-          </div> 
-      </div>
-      <h2 id="tit_L" class="text-center">Iniciar Sesión</h2>
-      <div id="input1" class="row d-grid gap-3 col-7 mx-auto">
-        <div class="input-group" >
-          <input type="text" class="form-control border-end-0" placeholder="Correo" aria-label="Correo">
-            <span class="input-group-text bg-white border-start-0">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18">
-                    <path id="email" d="M18.125,64H1.875A2.088,2.088,0,0,0,0,66.25v13.5A2.088,2.088,0,0,0,1.875,82h16.25A2.088,2.088,0,0,0,20,79.75V66.25A2.088,2.088,0,0,0,18.125,64Zm0,2.25v1.913c-.876.856-2.272,2.187-5.257,4.992-.658.621-1.961,2.113-2.868,2.1-.907.018-2.21-1.475-2.868-2.1-2.985-2.8-4.381-4.136-5.257-4.992V66.25ZM1.875,79.75v-8.7c.9.856,2.164,2.056,4.1,3.874C6.828,75.73,8.323,77.511,10,77.5c1.669.011,3.145-1.744,4.026-2.576,1.935-1.818,3.2-3.019,4.1-3.874v8.7Z" transform="translate(0 -64)" fill="#a7a7a7"/>
-                </svg>
-            </span>
+<?php
+echo view('comun/header');
+?> 
+<div class="container-sm">
+<br><br><br>
+    <div class="row">
+        <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+            <img src="<?php echo base_url('img/icono.png'); ?>" width=100 height=100 class="mx-auto d-block">       
         </div>
-        <div class="input-group" >
-          <input type="text" class="form-control border-end-0" placeholder="Contraseña" aria-label="Contraseña">
-            <span class="input-group-text bg-white border-start-0">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-                    <path id="password" d="M17.857,8.75H16.786V5.938C16.786,2.664,13.741,0,10,0S3.214,2.664,3.214,5.938V8.75H2.143A2.023,2.023,0,0,0,0,10.625v7.5A2.023,2.023,0,0,0,2.143,20H17.857A2.023,2.023,0,0,0,20,18.125v-7.5A2.023,2.023,0,0,0,17.857,8.75Zm-4.643,0H6.786V5.938A3.037,3.037,0,0,1,10,3.125a3.037,3.037,0,0,1,3.214,2.812Z" fill="#a7a7a7"/>
-                </svg>
-            </span>
-        </div>
-        <a id="txtReset" href="#">¿Se te ha olvidado la contraseña?</a>
-      </div>
-      <div id="btnLogin1" class="row btn d-grid col-5 mx-auto">
-        <button type="button" class="btnLogin btn rounded-pill">Iniciar Sesión</button>
-      </div>
     </div>
+<br>
+<div class="card border-light">
 
-    <?php
-    echo view('comun/footer');
-    ?>
+      <h2 id="tit_L" class="text-center">Iniciar Sesión</h2><br>
 
-  </body>
-</html>
+      <div class="form ">
+        <div class="row text-center aling-item-center justify-content-center">
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                  <div class="input-group">
+                      <span class="input-group-text" id="basic-addon1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                      </svg></span>
+                      <input type="text" class="form-control" placeholder="Correo" aria-describedby="basic-addon1">
+                    </div>
+              </div>
+          </div>
+          <br>
+        <div class="row text-center aling-item-center justify-content-center">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
+              <div class="input-group">
+                  <span class="input-group-text" id="basic-addon1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-key-fill" viewBox="0 0 16 16">
+                  <path d="M3.5 11.5a3.5 3.5 0 1 1 3.163-5H14L15.5 8 14 9.5l-1-1-1 1-1-1-1 1-1-1-1 1H6.663a3.5 3.5 0 0 1-3.163 2zM2.5 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                  </svg></span>
+                  <input type="text" class="form-control" placeholder="Contraseña"  aria-describedby="basic-addon1">
+              </div><br>
+          </div>
+      </div>
+      
+        <br>
+        </div>
+        <div class="text-center">
+        <?php
+        echo anchor("inicio/forgotPassword", "¿Se te ha olvidado la contraseña?");
+        ?>
+        </div>
+      
+      </div>
+<br>
+          <div class="row text-center aling-item-center justify-content-center">
+            <div class="col-sm-12">
+                <button type="button" class="btn btn-primary rounded-pill">Inicia Sesión</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+ <?php
+  echo view('comun/footer');
+   ?>

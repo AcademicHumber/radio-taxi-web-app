@@ -4,7 +4,7 @@ echo view('comun/header');
 <div class="container-sm">
     <div class="row" style="margin-bottom:30px; margin-top:25px;">
         <div class="col-sm-12">
-        <img src="img/icono.png" heigh=100 width=100 class="mx-auto d-block">
+        <img src="<?php echo base_url('img/icono.png'); ?>" width=100 height=100 class="mx-auto d-block">    
         </div>
     </div>
     <div class="card border-secondary" style="border-radius: 50px; margin-bottom:90px">
@@ -16,7 +16,7 @@ echo view('comun/header');
                 </svg>
             </div>
             <div class="d-flex justify-content-center" style="margin-bottom:40px;">
-                <img src="img/conductor.jpg" height=120 width=120 class="mx-auto d-block">
+            <img src="<?php echo base_url('img/conductor.jpg'); ?>" width=100 height=100 class="mx-auto d-block">    
             </div>
             <h5 class="text-center">Califica el viaje</h5>
             <div class="d-flex justify-content-center" style="margin-bottom:40px; margin-top:25px; ">
@@ -45,7 +45,7 @@ echo view('comun/header');
             </div>
             <textarea class="form-control border-secondary" aria-label="With textarea" placeholder="Comentario" rows="5"></textarea>
             <div class="d-flex justify-content-center" style="margin-bottom : 50px; margin-top : 30px">
-                <button type="button" class="btn col-6 fs-3 fw-bold rounded-pill bg-dark text-white" >Enviar</button>
+                <button type="button" class="btn col-4 fs-3 fw-bold rounded-pill bg-dark text-white" >Enviar</button>
             </div>
         </div>
     </div>

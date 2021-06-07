@@ -1,12 +1,16 @@
 <?php
 echo view('comun/header');
-?>
+?> 
 <div class="container-sm">
-    <div class="row" style="margin-bottom:50px; margin-top:30px;">
-        <div class="col-sm-12">
-        <img src="img/icono.png" heigh=100 width=100 class="mx-auto d-block">
+<br>
+    <div class="row">
+        <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+            <img src="<?php echo base_url('img/icono.png'); ?>" width=100 height=100 class="mx-auto d-block">       
         </div>
     </div>
+<br>
+<div class="card border-light">
+<br>
     <h2 class="text-center" style="color : #393E46; margin-bottom: 40px;">Registrarse</h2>
     <div class="d-flex justify-content-center">
         <div class="form w-75" >
@@ -18,6 +22,7 @@ echo view('comun/header');
                 </svg>
             </span>
             </div>
+
             <div class="input-group" style ="margin-bottom: 25px">
             <input type="text" class="form-control border-end-0" placeholder="Correo" aria-label="Correo">
             <span class="input-group-text bg-white border-start-0">
@@ -26,6 +31,7 @@ echo view('comun/header');
                 </svg>
             </span>
             </div>
+
             <div class="input-group" style ="margin-bottom: 25px">
             <input type="text" class="form-control border-end-0" placeholder="Contraseña" aria-label="Contraseña">
             <span class="input-group-text bg-white border-start-0">
@@ -34,6 +40,7 @@ echo view('comun/header');
                 </svg>
             </span>
             </div>
+
             <div class="input-group" style ="margin-bottom: 25px">
             <input type="text" class="form-control border-end-0" placeholder="Sexo" aria-label="Sexo">
             <span class="input-group-text bg-white border-start-0">
@@ -42,6 +49,7 @@ echo view('comun/header');
                 </svg>
             </span>
             </div>
+
             <div class="input-group" style ="margin-bottom: 50px">
             <input type="text" class="form-control border-end-0" placeholder="Teléfono" aria-label="Teléfono">
             <span class="input-group-text bg-white border-start-0">
@@ -50,11 +58,15 @@ echo view('comun/header');
                 </svg>
             </span>
             </div>
+
         </div>
     </div>
+
     <div class="d-flex justify-content-center" style="margin-bottom : 100px">
-        <button type="button" class="btn col-6 fs-3 fw-bold rounded-pill bg-dark text-white">Registrarse</button>
+        <button type="button" class="btn col-3 fs-6 fw-bold rounded-pill bg-dark text-white">Registrarse</button>
     </div>
+
+</div>
 </div>
 <?php
 echo view('comun/footer');
