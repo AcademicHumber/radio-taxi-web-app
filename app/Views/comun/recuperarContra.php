@@ -1,14 +1,16 @@
 <?php
 echo view('comun/header');
 ?> 
+<br><br><br>
+<div class="container-sm" >
 <br>
-<div class = "container-fluid">
     <div class="row">
-        <div class="col-sm-12">
-             <img src="<?php echo base_url('img/icono.png'); ?>" width=140 height=140 class="mx-auto d-block">   
+        <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+            <img src="<?php echo base_url('img/icono.png'); ?>" width=100 height=100 class="mx-auto d-block">       
         </div>
     </div>
 <br>
+<div class="card border-light">
 <h4 class="text-center">Ingrese su correo de verificación</h4>
 <br>
 <div class="form ">
@@ -35,17 +37,13 @@ echo view('comun/header');
        
 </div>
 <br>
-<div class="row text-center aling-item-center justify-content-center">
-    <div class="col-sm-12">
-        <button type="button" class="btn btn-outline-primary">Cambiar Contraseña</button>
+    <div class="d-flex justify-content-center">
+        <button type="button" class="btn fw-bold rounded-pill btn-primary">Registrarse</button>
     </div>
+ 
 </div>
-<br>
 </div>
-<br>
-<br>
-<br>
-<br>
+<br><br><br><br>
 <?php
 echo view('comun/footer');
 ?>

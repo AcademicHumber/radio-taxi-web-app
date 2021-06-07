@@ -2,19 +2,15 @@
 echo view('comun/header');
 ?>
 <br>
-<div class = "container-fluid">
+<div class="container-sm">
     <div class="row">
-        <div class="col-sm-12">
+        <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
             <img src="<?php echo base_url('img/icono.png'); ?>" width=100 height=100 class="mx-auto d-block">       
         </div>
     </div>
 <br>
-<?php
-echo view('mapa/mapa');
-?>
-<br>
 <h4 class="text-center">Registrarse</h4>
-
+<br>
 <div class="form ">
     <div class="row text-center aling-item-center justify-content-center">
          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
@@ -147,7 +143,7 @@ echo view('mapa/mapa');
 <br>
 <div class="row text-center aling-item-center justify-content-center">
     <div class="col-sm-12">
-        <button type="button" class="btn btn-primary">Registrarse</button>
+        <button type="button" class="btn btn-primary rounded-pill">Registrarse</button>
     </div>
 </div>
 <br>

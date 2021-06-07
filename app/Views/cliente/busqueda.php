@@ -1,7 +1,10 @@
 <?php
 echo view('comun/header');
-?>
-<div class="container-sm" style="margin-top: 180px;">
+?> 
+<div class="container-sm" style="margin-top: 100px;">
+
+    <div class="card border-light">
+
     <p class="fw-bold text-center" style="font-size:50px">BUSCANDO 
     <br>
     VIAJE</p>
@@ -19,9 +22,13 @@ echo view('comun/header');
         </svg>
     </div>
     <div class="d-flex justify-content-center" style="margin-bottom : 100px">
-        <button type="button" class="btn col-6 fs-3 fw-bold rounded-pill bg-dark text-white" >Cancelar</button>
+        <button type="button" class="btn  fw-bold rounded-pill bg-dark text-white" >Cancelar</button>
     </div>
 </div>
+</div>
+<br>
+<br>
+
 <?php
 echo view('comun/footer');
 ?>
