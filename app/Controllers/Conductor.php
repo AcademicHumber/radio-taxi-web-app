@@ -8,4 +8,10 @@ class Conductor extends BaseController
     {
         return view('conductor/conductor');
     }
+    public function onTheWay(){
+        return view('conductor/enCamino');
+    }
+    public function finish(){
+        return view('conductor/finalizado');
+    }
 }
