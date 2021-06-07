@@ -14,18 +14,25 @@
     <?php
     echo view('comun/header');
     ?>
-    <div class="container-sm w-100 mt-5 rounded">
-    <div class="text-center">
-    <img id="imgL" src="img/logo.jpg" class="rounded" alt="logo">
+  <div class="container-fluid">
+    <div id="img_logo" class="row">
+        <div class="col-sm-12">
+          <img src="img/icono.png" heigh=100 width=100 class="mx-auto d-block rounded">
+        </div> 
     </div>
-    <div class="row gap-3 mx-auto w-50">
-    <img id="imgL" src="img/btn1.png" class="rounded" alt="logo">
-    <button type="submit" class="btnIn btn btn-primary btn-lg rounded-pill ">Iniciar Sesión</button>
-    <button type="submit" class="btnRe btn btn-primary btn-lg rounded-pill">Registrarse</button>
-    <button type="submit" class="btnCond btn btn-primary btn-lg rounded-pill">Quiero ser conductor</button>
-    <img id="imgL1" src="img/btn2.png" class="rounded" alt="logo">
+    <div class="row">
+        <div class="col-sm-12">
+          <img id="img_btn1" src="img/btn1.png" class="mx-auto d-block rounded">
+        </div>  
+    </div> 
+    <div id="botones" class="row d-grid gap-3 col-5 mx-auto">
+      <button type="submit" class="btnIn btn btn-lg rounded-pill ">Iniciar Sesión</button>
+      <button type="submit" class="btnRe btn btn-lg rounded-pill">Registrarse</button>
+      <button type="submit" class="btnCond btn btn-lg rounded-pill">Conductor</button>
+      <div class="row">
+      </div>
     </div>
-    </div>
+  </div>
     <?php
     echo view('comun/footer');
     ?>
