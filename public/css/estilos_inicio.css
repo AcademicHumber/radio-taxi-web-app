@@ -1,0 +1,68 @@
+@import url(https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css);
+
+/* Página de Inicio */
+
+body{
+    
+    font-family: 'Gotham';
+}
+#imgL{
+    width: 300px;
+    height: auto;
+}
+#imgL1{
+    position: absolute;
+    left: 420px;
+    bottom: 50px;
+    width: 120px;
+    height: 250px;
+}
+.row{
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+}
+.botones{
+    margin-top: 250px !important;
+}
+.btnIn{
+    background-color: #00ADB5 !important;
+    color: black !important;
+    font-family: 'Gotham';
+    font-weight: 500 !important;
+}
+.btnRe{
+    background-color: #00ADB5 !important;
+    color: black !important;
+    font-family: 'Gotham';
+    font-weight: 500 !important;
+}
+.btnCond{
+    background-color: #00ADB5 !important;
+    color: black !important;
+    font-family: 'Gotham';
+    font-weight: 500 !important;
+}
+
+/* Página Iniciar Sesión */
+
+.btnLogin{
+    background-color: #00ADB5 !important ;
+    color: black !important;
+    font-weight: 500 !important;
+    font-family: 'Gotham';
+}
+#imgLogin{
+    width: 300px;
+    height: 200px;
+}
+#tit_L{
+    position: relative;
+    top: 30px;
+    font-family: 'Gotham';
+    color: #393E46!important;
+    font-weight: 600 !important;
+}
+#txtReset{
+    text-align: center;
+}
+
