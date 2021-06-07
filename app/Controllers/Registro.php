@@ -6,6 +6,6 @@ class Registro extends BaseController
 {
     public function index()
     {
-        return view('registro/registro');
+        return view('cliente/registro');
     }
 }
