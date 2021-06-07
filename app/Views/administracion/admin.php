@@ -11,7 +11,7 @@ echo view('comun/footer');
 <div class = "container-fluid ">
     <div class="row">
         <div class="col-sm-12">
-        <img src="img/icono.png" heigh=100 width=100 class="mx-auto d-block">
+            <img src="<?php echo base_url('img/icono.png'); ?>" width=100 height=100 class="mx-auto d-block">   
         </div>  
     </div>
     <br>

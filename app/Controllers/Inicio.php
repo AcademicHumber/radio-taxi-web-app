@@ -8,4 +8,10 @@ class Inicio extends BaseController
     {
         return view('inicio/inicio');
     }
+    public function forgotPassword(){
+        return view('comun/olvidarContra');
+    }
+    public function recoverPassword(){
+        return view('comun/recuperarContra');
+    }
 }
