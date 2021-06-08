@@ -2,65 +2,63 @@
 
 /* Página de Inicio */
 
-
-#img_btn1{
-    margin-top: 30px !important;
-    width: 250px;
+#img_btn1 {
+  margin-top: 30px !important;
+  width: 250px;
 }
-#img_logo{
-    margin-top: 50px !important;
+#img_logo {
+  margin-top: 50px !important;
 }
-#botones{
-    margin-top: 20px !important;
+#botones {
+  margin-top: 20px !important;
 }
-.btnIn{
-    background-color: #00ADB5 !important;
-    color: black !important;
-    font-family: 'Gotham';
-    font-weight: 500 !important;
+.btnIn {
+  background-color: #00adb5 !important;
+  color: black !important;
+  font-family: "Gotham";
+  font-weight: 500 !important;
 }
-.btnRe{
-    background-color: #00ADB5 !important;
-    color: black !important;
-    font-family: 'Gotham';
-    font-weight: 500 !important;
+.btnRe {
+  background-color: #00adb5 !important;
+  color: black !important;
+  font-family: "Gotham";
+  font-weight: 500 !important;
 }
-.btnCond{
-    background-color: #00ADB5 !important;
-    color: black !important;
-    font-family: 'Gotham';
-    font-weight: 500 !important;
+.btnCond {
+  background-color: #00adb5 !important;
+  color: black !important;
+  font-family: "Gotham";
+  font-weight: 500 !important;
 }
 
 /* Página Iniciar Sesión */
 
-.btnLogin{
-    background-color: #00ADB5 !important ;
-    color: black !important;
-    font-weight: 500 !important;
-    font-family: 'Gotham';
+.btnLogin {
+  background-color: #00adb5 !important ;
+  color: black !important;
+  font-weight: 500 !important;
+  font-family: "Gotham";
 }
-#btnLogin1{
-    margin-top: 20px;
+#btnLogin1 {
+  margin-top: 20px;
 }
-#input1{
-    margin-top: 50px;
+#input1 {
+  margin-top: 50px;
 }
-#tit_L{
-    position: relative;
-    top: 30px;
-    font-family: 'Gotham';
-    color: #393E46!important;
-    font-weight: 600 !important;
+#tit_L {
+  position: relative;
+  top: 30px;
+  font-family: "Gotham";
+  color: #393e46 !important;
+  font-weight: 600 !important;
 }
-#txtReset{
-    text-align: center;
+#txtReset {
+  text-align: center;
 }
 
 /* Página Viaje en camino*/
 
-#listas{
-    font-family: 'Gotham';
-    font-weight: 600 !important;
+#listas {
+  font-family: "Gotham";
+  font-weight: 600 !important;
 }
-
