@@ -17,5 +17,7 @@ class Conductor extends BaseController
     public function finish(){
         return view('conductor/finalizado');
     }
-  
+    public function loginC(){
+        return view('conductor/login');
+    }
 }

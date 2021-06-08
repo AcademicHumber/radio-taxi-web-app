@@ -48,7 +48,7 @@ echo view('comun/header');
   <br>
   <div class="row text-center aling-item-center justify-content-center">
     <div class="col-sm-12">
-    <a href="<?php echo base_url('/home'); ?>" type="button" class="btn bg-dark text-white rounded-pill">Inicia Sesión </a>
+    <a href="<?php echo base_url('/conductor'); ?>" type="button" class="btn bg-dark text-white rounded-pill">Inicia Sesión </a>
     </div>
   </div>
 </div>

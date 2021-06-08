@@ -49,7 +49,7 @@ echo view('comun/header');
 <script>
   setTimeout(() => {
     window.location.replace("<?php echo base_url('/cliente/clientFinish') ?>");
-  }, 3000);
+  }, 80000);
 </script>
 <?php
 echo view('comun/footer');

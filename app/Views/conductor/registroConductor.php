@@ -143,7 +143,7 @@ echo view('comun/header');
 <br>
 <div class="row text-center aling-item-center justify-content-center">
     <div class="col-sm-12">
-        <button type="button" class="btn btn-primary rounded-pill">Registrarse</button>
+    <a href="<?php echo base_url('conductor/loginC'); ?>" type="button" class="btn btn-primary rounded-pill">Registrarse</a>
     </div>
 </div>
 <br>

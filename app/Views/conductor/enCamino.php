@@ -16,7 +16,7 @@ echo view('mapa/mapa');
 <BR>
     <div class="row text-center aling-item-center justify-content-center">
         <div class="col-sm-12">
-            <button type="button" class="btn btn-dark rounded-pill">Finalizar Viaje</button>
+        <a href="<?php echo base_url('/conductor/finish'); ?>" type="button" class="btn btn-dark rounded-pill">Finalizar Viaje</a>
         </div>
     </div>
 <br>

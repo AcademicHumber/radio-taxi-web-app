@@ -63,7 +63,7 @@ echo view('comun/header');
     </div>
 
     <div class="d-flex justify-content-center" style="margin-bottom : 100px">
-        <button type="button" class="btn col-3 fs-6 fw-bold rounded-pill bg-dark text-white">Registrarse</button>
+    <a href="<?php echo base_url('/home'); ?>" type="button" class="btn col-3 fs-6 fw-bold rounded-pill bg-dark text-white">Registrarse</a>
     </div>
 
 </div>
