@@ -22,7 +22,7 @@ echo view('comun/header');
 <BR>
     <div class="row text-center aling-item-center justify-content-center">
         <div class="col-sm-12">
-            <button type="button" class="btn btn-dark rounded-pill">Cancelado</button>
+        <a href="<?php echo base_url('/conductor'); ?>" type="button" class="btn btn-dark rounded-pill">Cancelado</a>
         </div>
     </div>
 </div>

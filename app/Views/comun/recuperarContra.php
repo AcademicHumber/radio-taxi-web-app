@@ -10,8 +10,8 @@ echo view('comun/header');
         </div>
     </div>
 <br>
-<div class="card border-light">
-<h4 class="text-center">Ingrese su correo de verificación</h4>
+<div class="">
+<h4 class="text-center">Ingrese código de verificación</h4>
 <br>
 <div class="form ">
     <div class="row text-center aling-item-center justify-content-center">
@@ -38,7 +38,7 @@ echo view('comun/header');
 </div>
 <br>
     <div class="d-flex justify-content-center">
-        <button type="button" class="btn fw-bold rounded-pill btn-primary">Registrarse</button>
+    <a href="<?php echo base_url('/inicio'); ?>" type="button" class="btn fw-bold rounded-pill btn-primary">Cambiar contraseña</a>
     </div>
  
 </div>

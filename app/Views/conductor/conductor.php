@@ -44,7 +44,7 @@ echo view('mapa/mapa');
 <br>
     <div class="row text-center aling-item-center justify-content-center">
         <div class="col-sm-12">
-            <button type="button" class="btn btn-outline-primary rounded-pill">Aceptar</button>
+        <a href="<?php echo base_url('conductor/onTheWay'); ?>" type="button" class="btn btn-outline-primary rounded-pill">Aceptar</a>
             <button type="button" class="btn btn-outline-dark rounded-pill">Cancelar</button>
         </div>
     </div>

@@ -16,14 +16,14 @@
       background-image: url('<?php echo base_url('/img/driver.png') ?>');
       background-position: center;
       background-repeat: no-repeat;
-      opacity: 0.1;
+      opacity: 0.2;
       top: 0;
       left: 0;
       bottom: 0;
       right: 0;
       position: absolute;
       z-index: -1;
-      filter: brightness(50%);
+      filter: brightness(90%);
     }
   </style>
   <title>App Radio Taxi</title>

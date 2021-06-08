@@ -10,7 +10,7 @@ echo view('comun/header');
         </div>
     </div>
 <br>
-<div class="card border-light">
+<div class="">
 <h4 class="text-center">Ingrese su correo y recibirá un código de verificación</h4>
 <br>
     <div class="form ">
@@ -29,7 +29,7 @@ echo view('comun/header');
 <br>
     <div class="row text-center aling-item-center justify-content-center">
         <div class="col-sm-12">
-            <button type="button" class="btn btn-outline-primary">Enviar código</button>
+        <a href="<?php echo base_url('/inicio/recoverPassword'); ?>" type="button" class="btn btn-primary">Enviar código</a>
         </div>
     </div>
 <br>
