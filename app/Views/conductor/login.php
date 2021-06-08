@@ -2,7 +2,6 @@
 echo view('comun/header');
 ?>
 <div class="container-sm">
-  <br><br><br>
   <div class="row">
     <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
       <img src="<?php echo base_url('img/icono.png'); ?>" width=100 height=100 class="mx-auto d-block">
@@ -48,12 +47,11 @@ echo view('comun/header');
   <br>
   <div class="row text-center aling-item-center justify-content-center">
     <div class="col-sm-12">
-    <a href="<?php echo base_url('/conductor'); ?>" type="button" class="btn bg-dark text-white rounded-pill">Inicia Sesión </a>
+      <a href="<?php echo base_url('/conductor'); ?>" type="button" class="btn bg-dark text-white rounded-pill">Inicia Sesión </a>
     </div>
   </div>
 </div>
-</div>
-<br>
+
 <?php
 echo view('comun/footer');
 ?>
